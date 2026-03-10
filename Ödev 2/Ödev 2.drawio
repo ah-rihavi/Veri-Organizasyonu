@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Sayfa-1" id="YqpUvteTBJjbuEBDOkvU">
+    <mxGraphModel dx="529" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Şube" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Çalışan" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="R1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Çalışır" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="R2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Yönetir" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="A1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;şube_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="60" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="A2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="şube_adı" vertex="1">
+          <mxGeometry height="50" width="90" x="175" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="adres" vertex="1">
+          <mxGeometry height="50" width="90" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="A4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;çalışan_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="adı" vertex="1">
+          <mxGeometry height="50" width="90" x="655" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="A6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="soyadı" vertex="1">
+          <mxGeometry height="50" width="90" x="760" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="maaş" vertex="1">
+          <mxGeometry height="50" width="90" x="800" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="A8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="adresi" vertex="1">
+          <mxGeometry height="50" width="90" x="800" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="A9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="görevi" vertex="1">
+          <mxGeometry height="50" width="90" x="760" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="L1" edge="1" parent="1" source="A1" style="endArrow=none;html=1;" target="E1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2" edge="1" parent="1" source="A2" style="endArrow=none;html=1;" target="E1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3" edge="1" parent="1" source="A3" style="endArrow=none;html=1;" target="E1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4" edge="1" parent="1" source="A4" style="endArrow=none;html=1;" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5" edge="1" parent="1" source="A5" style="endArrow=none;html=1;" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6" edge="1" parent="1" source="A6" style="endArrow=none;html=1;" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7" edge="1" parent="1" source="A7" style="endArrow=none;html=1;" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8" edge="1" parent="1" source="A8" style="endArrow=none;html=1;" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9" edge="1" parent="1" source="A9" style="endArrow=none;html=1;" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L10" edge="1" parent="1" source="E1" style="endArrow=none;html=1;labelBackgroundColor=none;verticalAlign=bottom;fontStyle=1;fontSize=14;" target="R1" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L11" edge="1" parent="1" source="R1" style="endArrow=none;html=1;labelBackgroundColor=none;verticalAlign=bottom;fontStyle=1;fontSize=14;" target="E2" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L12" edge="1" parent="1" source="E1" style="endArrow=none;html=1;labelBackgroundColor=none;verticalAlign=bottom;fontStyle=1;fontSize=14;" target="R2" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L13" edge="1" parent="1" source="R2" style="endArrow=none;html=1;labelBackgroundColor=none;verticalAlign=bottom;fontStyle=1;fontSize=14;" target="E2" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
